@@ -42,7 +42,7 @@
                 <div class=" col-12 col-lg-4">
                     <div>
                         <div class="card-style mb-30">
-                            <div class="col-xl-12 col-lg-12 col-sm-6">
+                            <div class="col-xl-12 col-lg-12 col-sm-12">
                                 <div class="icon-card mb-30">
                                     <div class="icon purple">
                                         <i class="lni lni-layout"></i>
@@ -56,7 +56,7 @@
                                 <!-- End Icon Cart -->
                             </div>
                             <!-- End Col -->
-                            <div class="col-xl-12 col-lg-12 col-sm-6">
+                            <div class="col-xl-12 col-lg-12 col-sm-12">
                                 <div class="icon-card mb-30">
                                     <div class="icon success">
                                         <i class="lni lni-layers"></i>

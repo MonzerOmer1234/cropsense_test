@@ -37,9 +37,9 @@
                 <!-- end row -->
             </div>
             <!-- ========== title-wrapper end ========== -->
-            <div class="lg-row">
+            <div class="row">
                 {{-- Info Section --}}
-                <div class=" d-block col-lg-4">
+                <div class=" col-12 col-lg-4">
                     <div>
                         <div class="card-style mb-30">
                             <div class="col-xl-12 col-lg-12 col-sm-6">
@@ -77,10 +77,10 @@
 
                 {{-- Big Map --}}
 
-                <div class="d-block col-lg-8" id="app">
+                <div class="col-12 col-lg-8" id="app">
                     <div class="card-style mb-30">
                         <h6 class="mb-10">Farm Map</h6>
-                        <dashboard-farm-map :farms="{{json_encode($farms)}}" > </dashboard-farm-map>
+                        <dashboard-farm-map :farms="{{ json_encode($farms) }}"> </dashboard-farm-map>
                     </div>
                 </div>
                 {{-- Big Map End --}}

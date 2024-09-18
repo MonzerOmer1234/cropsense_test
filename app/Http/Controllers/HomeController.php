@@ -30,7 +30,8 @@ class HomeController extends Controller
         $farms = Farm::where('farm_group_id', Auth::user()->farm_group_id)->get();
         $tasks = Task::where('farm_group_id', Auth::user()->farm_group_id)->whereIn('status', [1, 2, 4])->count();
         $workers = User::where('farm_group_id',Auth::user()->farm_group_id)->where('type',2)->get();
-        // return $farms;
+        
+      
         return view('newhome', compact(
             'farms',
             'tasks',
